@@ -15,5 +15,8 @@ module.exports = {
         path: path.join(__dirname, "./dist"),//打包好输出文件
         filename: 'bundle.js'//打包好文件的文件名
     },
-    mode: 'development'//设置 mode
+    mode: 'development',//设置 mode
+    module: {},//模块：例如解读css，图片如何转换，压缩
+    plugins: [],//插件，用于生产模板和各项功能
+    devSever: {} //配置webpack开发服务功能
 }
