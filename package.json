@@ -4,7 +4,9 @@
   "description": "<!--\r  * @Descripttion : \r  * @version      : \r  * @Author       : tky\r  * @Date         : 2020-05-23 15:23:38\r  * @LastEditors  : tky\r  * @LastEditTime : 2020-05-23 15:24:55\r --> \r test1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
