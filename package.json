@@ -1,0 +1,22 @@
+{
+  "name": "webpack3",
+  "version": "1.0.0",
+  "description": "<!--\r  * @Descripttion : \r  * @version      : \r  * @Author       : tky\r  * @Date         : 2020-05-23 15:23:38\r  * @LastEditors  : tky\r  * @LastEditTime : 2020-05-23 15:24:55\r --> \r test1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starrytky/webpack3-demo.git"
+  },
+  "author": "tky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starrytky/webpack3-demo/issues"
+  },
+  "homepage": "https://github.com/starrytky/webpack3-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
